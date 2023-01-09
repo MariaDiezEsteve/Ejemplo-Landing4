@@ -13,13 +13,14 @@
 
 }
 .title > h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 .nav-button {
     display: flex;
    justify-content: space-between; 
-   padding-left: 18rem;
-   padding-right: 18rem;
+   padding-left: 33rem;
+   padding-right: 33rem;
   
 }
 .nav-button > .boton {
@@ -33,4 +34,51 @@
     background-color: rgb(218, 20, 86);
     color: white;
     border-radius: 0.35rem ;
+}
+/*parte 1 */
+.parte1 {
+    background-image: url(./image/image_general/pic01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 12%; 
+    display: flex;
+    justify-content: center;
+}
+.wrapper-parte1 {
+   background-color: black;
+   width: 40%;
+   padding: 2rem 
+   
+   
+}
+.text1-part1 {
+    color:white;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.text2-part1 {
+    color:rgb(218, 20, 86);
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+/* parte 2 */
+.parte2 {
+    text-align: center;
+}
+.wrapper-image-parte2 {
+    display: flex;
+    margin: 0.3rem;
+    /* padding: 4rem; */
+    padding-left: 10rem;
+   padding-right: 10rem;
+}
+.setting {
+    width: 30%;
+    padding: 5rem; 
 }
