@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+.header {
+    text-align: center;
+    margin: 3rem;
+
+}
+.title {
+    padding: 1.7rem;
+
+}
+.title > h1 {
+    font-size: 2rem;
+}
+.nav-button {
+    display: flex;
+   justify-content: space-between; 
+   padding-left: 18rem;
+   padding-right: 18rem;
+  
+}
+.nav-button > .boton {
+    padding: 0.7rem;
+    border: none;
+    background-color: white;
+    color: gray;
+    font-style: italic;
+}
+.nav-button > .boton:nth-child(1) {
+    background-color: rgb(218, 20, 86);
+    color: white;
+    border-radius: 0.35rem ;
+}
