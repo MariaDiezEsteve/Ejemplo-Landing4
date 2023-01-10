@@ -17,7 +17,7 @@
     font-weight: 900;
 }
 .nav-button {
-    display: flex;
+   display: flex;
    justify-content: space-between; 
    padding-left: 33rem;
    padding-right: 33rem;
