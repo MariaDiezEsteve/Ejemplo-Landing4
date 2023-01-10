@@ -19,8 +19,8 @@
 .nav-button {
     display: flex;
    justify-content: space-between; 
-   padding-left: 33rem;
-   padding-right: 33rem;
+   padding-left: 25rem;
+   padding-right: 25rem;
   
 }
 .nav-button > .boton {
@@ -81,4 +81,8 @@
 .setting {
     width: 30%;
     padding: 5rem; 
+}
+wrapper-button-parte2 {
+    
+
 }
