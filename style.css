@@ -284,4 +284,21 @@ span{
 .footer-container{
     display: flex;
 }
-.
+.footer-parte2-texto p{
+    color: dimgrey;
+    font-size: 0.8rem;
+    padding-top: 1.2rem;
+    width: 52%;
+    padding-bottom: 2rem;
+}
+.footer-parte2-texto button{
+    color: white;
+    padding: 0.6rem 1.8rem;
+    background-color:rgb(218, 20, 86);
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bolder;
+    margin-top: 0.2rem ;
+    margin-bottom: 2rem;
+    text-align: left;
+}
