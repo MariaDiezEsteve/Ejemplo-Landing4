@@ -268,3 +268,13 @@ span{
     margin-bottom: 2rem;
     text-align: left;
 }
+
+.footer-container2{
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-parte-contenido {
+    display: flex;
+    flex-direction: column;
+}
