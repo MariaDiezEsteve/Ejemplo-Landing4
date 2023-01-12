@@ -19,9 +19,9 @@
 .nav-button {
    display: flex;
    justify-content: space-between; 
-   padding-left: 25rem;
+    padding-left: 25rem;
    padding-right: 25rem;
-  
+   
 }
 .nav-button > .boton {
     padding: 0.7rem;
@@ -244,7 +244,7 @@ span{
 
 .footer-general {
     background-color: black;
-    /* padding-left: 10rem; */
+     padding-left: 10rem; 
 }
 
 .footer-parte-titulo{
@@ -313,6 +313,7 @@ span{
 .footer-container2{
     display: flex;
     gap: 2rem;
+    width: 100%;
 }
 
 /* Parte 3 - 4 */
@@ -320,7 +321,8 @@ span{
 .footer-parte-contenido {
     display: flex;
     flex-direction: column;
-    line-height: 2.3rem;
+    line-height: 2.3rem; 
+    
 }
 
 .footer-parte-contenido a {
@@ -332,6 +334,11 @@ span{
 
 
 /* Parte 5 */
+/* 
+.footer-parte5{
+    display: flex;
+    flex-direction: column;
+} */
 
 .footer-parte5-iconos{
     display: flex;
@@ -358,9 +365,9 @@ span{
 .footer-parte5-direction{
     display: flex;
     gap: 2rem;
-    margin: 1.5rem;
-     padding-left: 1.2rem;  
-    /* width: 55%; */
+    margin: 1.5rem; 
+    padding-left: 1.2rem;  
+    width: 100%;
 }
 
 .address {
@@ -371,7 +378,7 @@ span{
     color:dimgrey;
     font-size: 0.75rem;
     line-height: 1.2rem;
-    width: 35%;
+    width: 35%; 
 }
 
 
