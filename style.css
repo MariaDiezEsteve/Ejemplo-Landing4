@@ -96,6 +96,14 @@
     background-color: rgb(218, 20, 86);
 }
 
+.text-part2 {
+    width: 90%;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
 /* parte 3 */
 .parte3{
     background-color: rgb(235, 222, 222);
@@ -160,27 +168,54 @@ span{
 
 .wrapper-blog-title {
     text-align: center;
-    margin-bottom: 2rem;
-}
+    margin-bottom: 2rem
+} 
 .wrapper-blog-general {
     display: flex;
     justify-content: center;
+    margin: 0rem 5rem;
 }
 
+.wrapper-blog-parte3{
+    width: 45%;
+}
 .wrapper-blog-image-text {
-    padding: 0rem 2rem 1.7rem 1.9rem;
+   width: 90%;
+   background-color: white;
+
 }
 
 .wrapper-blog-image-text h5, span, p {
    width: 28rem;
+   line-height: 1.2rem;
+
 }
+
+.wrapper-blog-image-text h5{
+    padding:  1rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.posted-blog{
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 0.8rem;
+}
+
+.wrapper-blog-image-text p {
+    width: 94%;
+    padding: 1.5rem 2.5rem 1.2rem 1rem;
+    font-size: 0.9rem;
+    color: dimgrey;
+}
+
 
 .wrapper-blog-image-text img {
-    width: 80%;
+    width: 100%;
 }
 
+
 .boton-blog{
-    margin-left: 2rem;
+    margin-left: 2rem; 
 }
 
 .boton-blog2 {
@@ -192,7 +227,7 @@ span{
     border-radius: 0.3rem;
     font-weight: bolder;
     margin-bottom: 2rem;
-    
+
 }
 .boton-blog1 {
     color: white;
@@ -204,11 +239,12 @@ span{
     font-weight: bolder;
     margin-bottom: 2rem;
 }
-
 /* Footer */
+/* Parte 1 */
 
 .footer-general {
     background-color: black;
+    padding-left: 10rem;
 }
 
 .footer-parte-titulo{
@@ -247,6 +283,8 @@ span{
     font-size: 0.8rem;
 }
 
+/* Parte 2 */
+
 .footer-container{
     display: flex;
 }
@@ -269,12 +307,84 @@ span{
     text-align: left;
 }
 
+/* Parte 3 - 4 - 5 */
+
+
 .footer-container2{
     display: flex;
     gap: 2rem;
 }
 
+/* Parte 3 - 4 */
+
 .footer-parte-contenido {
     display: flex;
     flex-direction: column;
+    line-height: 2.3rem;
+}
+
+.footer-parte-contenido a {
+    color: dimgrey;
+    font-size: 0.8rem;
+    padding-left: 2.6rem;
+}
+
+
+
+/* Parte 5 */
+
+.footer-parte5-iconos{
+    display: flex;
+    gap: 0.75rem;
+    padding-left: 3rem;
+}
+
+#facebook, #linkedin{
+    color: grey;
+}
+
+#twitter {
+    color: #00acee;
+}
+
+#dribble {
+    color:rgb(218, 20, 86);
+}
+
+#tumblr{
+    color: darkblue;
+}
+
+.footer-parte5-direction{
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem;
+    padding-left: 1.2rem; 
+    width: 55%;
+}
+
+.address {
+    color:white;
+}
+
+.address-text{
+    color:dimgrey;
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    width: 35%;
+}
+
+
+.address-text1{
+    color:dimgrey;
+    font-size: 0.75rem;
+    padding-left: 1.5rem;
+   
+}
+
+.address-text2{
+    color:dimgrey;
+    font-size: 0.75rem;
+    padding-left: 1rem;
+    
 }
