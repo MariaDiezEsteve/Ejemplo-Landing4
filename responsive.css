@@ -1,0 +1,8 @@
+/* Responsive*/
+/* responsive tablet*/
+@media screen and (min-width: 481px) and (max-width: 835px) {
+   .general{
+    width: 100%;
+   } 
+    
+}
