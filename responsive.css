@@ -4,5 +4,273 @@
    .general{
     width: 100%;
    } 
-    
+
+   .header {
+    text-align: center;
+    margin: 1rem;
+   }
+   .nav-button {
+   display: flex;
+   flex-direction: column;
+   padding-left: 2rem;
+   padding-right: 2rem; 
+   }
+
+   .wrapper-parte1 {
+      width: 90%; 
+   }
+
+   .text1-part1 {
+      font-size: 1rem;
+      
+  }
+  .text2-part1 {
+      font-size: 0.9rem;   
+  }
+
+  .wrapper-image-parte2 {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   }
+
+   .setting {
+      width: 48%;
+   }
+
+   .text-part2 {
+      width: 150%;
+      text-align: center;
+   }
+
+   h4 {
+      width: 110%;
+      text-align: center;
+   }
+   .wapper-parte3 {
+      margin: 0rem;
+  }
+
+   .wrapper-portfolio {
+      margin: 1rem 1.5rem;
+  }
+
+  .texto-portfolio h5 {
+   font-size: 0.75rem;
+  }
+
+  .texto-portfolio p {
+   font-size: 0.7rem;
+  }
+  .wrapper-portfolio-image-text-parte3 button {
+   padding: 0.5rem 0.6rem;
+   }
+
+   .button-parte3 {
+      margin-left: 0.5rem;
+   }
+
+   .wrapper-blog-general {
+      margin: 0rem 0rem;
+  }
+  
+  .wrapper-blog-general p {
+   font-size: 0.7rem;
+   }
+
+   .boton-blog1 {
+      margin-bottom: 0;
+   }
+
+   form {
+      width:80%;
+   }
+
+   .footer-general {
+       padding-left: 0; 
+  }
+
+  .footer-parte2 {
+   width: 41%;
+  }
+
+  .footer-parte2-img img{
+   width: 90%;
+  }
+
+  .footer-parte-titulo h2 {
+   font-size: 1rem;
+  }
+
+  .footer-parte1 {
+   width: 60%;
+  }
+
+  .footer-parte3, .footer-parte4{
+   width: 60%;
+  }
+
+  .footer-parte-titulo {
+   margin: 0.7rem 2.2rem;
+  }
+
+  .footer-parte6-text {
+   width: 95%;
+  }
+}
+/* Responsive mobile */
+
+@media screen and (max-width: 480px) {
+   .general{
+      width: 100%;
+     } 
+
+     .header {
+      text-align: center;
+      margin: 1rem;
+     }
+     .nav-button {
+     display: flex;
+     flex-direction: column;
+     padding-left: 2rem;
+     padding-right: 2rem; 
+     }
+  
+     .wrapper-parte1 {
+        width: 90%; 
+     }
+  
+     .text1-part1 {
+        font-size: 0.8rem;
+        
+    }
+    .text2-part1 {
+        font-size: 0.6rem;   
+    }
+    .wrapper-image-parte2 {
+      display: flex;
+      justify-content: center;
+      gap: 0rem;
+      padding-left: 0;
+      padding-right: 0;
+      }
+      .wrapper-porfolio-title h3{
+         font-size: 0.8rem;
+
+      }
+
+      .wrapper-image-parte2 {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         }
+      
+      .setting {
+       width: 100%;
+       padding: 0;
+      }
+      
+      .text-part2 {
+       width: 90%;
+       text-align: center;
+      }
+      
+      h4 {
+          width: 100%;
+            text-align: center;
+         }
+         .wapper-parte3 {
+            margin: 0rem;
+        }
+      
+         .wrapper-portfolio {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          justify-content: space-around;
+         margin: 1rem 1.5rem;
+        }
+      
+        .texto-portfolio h5 {
+         font-size: 0.65rem;
+        }
+      
+        .texto-portfolio p {
+         font-size: 0.7rem;
+        }
+        .wrapper-portfolio-image-text-parte3 button {
+         padding: 0.5rem 0.6rem;
+         }
+      
+         .button-parte3 {
+            margin-left: 0.5rem;
+         }
+
+
+         .wrapper-blog-general {
+            margin: 0rem 0rem;
+        }
+        
+        .wrapper-blog-general p {
+         font-size: 0.7rem;
+         }
+         .wrapper-blog-title h3 {
+            font-size: 0.8rem;
+         }
+
+         .wrapper-blog-image-text h5 {
+            font-size: 0.9rem;
+         }
+         .wrapper-blog-image-text span {
+            font-size: 0.7rem;
+         }
+         .wrapper-blog-image-text p{
+            width: 100%;
+         }
+         .boton-blog1 {
+            margin-bottom: 0;
+         }
+      
+         form {
+            width:80%;
+         }
+      
+         .footer-general {
+             padding-left: 0; 
+        }
+      
+        .footer-parte2 {
+         width: 41%;
+        }
+      
+        .footer-parte2-img img{
+         width: 90%;
+        }
+      
+        .footer-parte-titulo h2 {
+         font-size: 1rem;
+        }
+      
+        .footer-parte1 {
+         width: 60%;
+        }
+      
+        .footer-parte3, .footer-parte4{
+         width: 60%;
+        }
+      
+        .footer-parte-titulo {
+         margin: 0.7rem 2.2rem;
+        }
+      
+        .footer-parte6-text {
+         width: 95%;
+         font-size: 0.8rem;
+        }
+
+        .footer-container2 {
+         gap: 0rem;
+         margin-left: 2rem;
+         width: 92%;
+     }
+  
 }

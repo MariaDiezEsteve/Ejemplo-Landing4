@@ -20,7 +20,7 @@
 .nav-button {
    display: flex;
    justify-content: space-between; 
-    padding-left: 25rem;
+   padding-left: 25rem;
    padding-right: 25rem;
    
 }
@@ -64,8 +64,7 @@
 .text2-part1 {
     color:rgb(218, 20, 86);
     text-align: center;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;   
 }
 
 /* parte 2 */
@@ -187,10 +186,16 @@ span{
 
 }
 
-.wrapper-blog-image-text h5, span, p {
+.wrapper-blog-image-text h5, span {
    width: 28rem;
    line-height: 1.2rem;
 
+}
+
+.wrapper-blog-general p {
+    width: 28rem;
+    line-height: 1.2rem;
+    
 }
 
 .wrapper-blog-image-text h5{
