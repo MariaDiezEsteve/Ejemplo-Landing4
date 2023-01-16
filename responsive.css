@@ -125,6 +125,7 @@
       width: 100%;
      } 
 
+     /* Parte 1 */
      .header {
       text-align: center;
       margin: 1rem;
@@ -147,6 +148,8 @@
     .text2-part1 {
         font-size: 0.6rem;   
     }
+
+    /* Parte 2 */
     .wrapper-image-parte2 {
       display: flex;
       justify-content: center;
@@ -179,6 +182,8 @@
           width: 100%;
             text-align: center;
          }
+      
+         /* Parte 3 */
          .wapper-parte3 {
             margin: 0rem;
         }
@@ -205,6 +210,7 @@
             margin-left: 0.5rem;
          }
 
+         /* Blog */
 
          .wrapper-blog-general {
             margin: 0rem 0rem;
@@ -237,40 +243,69 @@
          .footer-general {
              padding-left: 0; 
         }
-      
-        .footer-parte2 {
-         width: 41%;
-        }
-      
-        .footer-parte2-img img{
-         width: 90%;
-        }
-      
-        .footer-parte-titulo h2 {
-         font-size: 1rem;
-        }
-      
-        .footer-parte1 {
-         width: 60%;
-        }
-      
-        .footer-parte3, .footer-parte4{
-         width: 60%;
-        }
-      
-        .footer-parte-titulo {
-         margin: 0.7rem 2.2rem;
-        }
-      
-        .footer-parte6-text {
-         width: 95%;
-         font-size: 0.8rem;
-        }
+         .footer-general {
+       padding-left: 0; 
+      }
 
-        .footer-container2 {
-         gap: 0rem;
-         margin-left: 2rem;
-         width: 92%;
-     }
+      .footer-parte1-contenido{
+         display: flex;
+         flex-direction: column;
+         margin: 0.7rem 2rem;
+         
+      }
+
+         .footer-parte1-texto h5{
+            font-size: 1rem;
+            color:white;
+         }
+         .footer-parte1-texto p{
+            color: dimgrey;
+            font-size: 1rem;
+         }
+
+         .footer-parte1-img {
+            padding: 0.25rem 1rem;
+            width: 40%;
+         }
+
+         .footer-container2 {
+            display: flex;
+            flex-direction: column;
+            gap: 0rem;
+            margin-left: 2rem;
+            width: 92%;
+         }
+
+         .footer-parte2 {
+            width: 41%;
+         }
+
+         .footer-parte2-img img{
+            width: 90%;
+         }
+
+         .footer-parte-titulo h2 {
+            font-size: 1rem;
+         }
+
+         .footer-parte1 {
+            width: 60%;
+         }
+  
+         .footer-parte-titulo {
+            margin: 0.7rem 2.2rem;
+         }
+
+         .footer-parte6-text {
+            width: 95%;
+            font-size: 0.8rem;
+         }
+                 
+        .footer-parte3, .footer-parte4{
+         width: 100%;
+        }
+     
+
+       
   
 }
