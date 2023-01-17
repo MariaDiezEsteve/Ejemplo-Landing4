@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="formulario">
+        <form action="">
+            <label id="caja1" for="numero1">Número 1</label>
+            <input type="text" value="">
+            <label id="caja2" for="numero2">Número 2</label>
+            <input type="text" value="">
+
+            <button onclick="bucle()">Procesar</button>
+
+            <div id="resultado">
+
+
+            </div>
+
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script>
+
+        const caja1 = document.getElementById("caja1").value
+        //let valor1 = parseInt(caja1.value) // lo que le estamos diciendo a ese string es que sea número
+
+        const caja2 = document.getElementById("caja2").value
+        // let valor2 = parseInt(caja2.value) // lo que le estamos diciendo a ese string es que sea número
+  
+
+        function bucle2(caja1, caja2) {
+
+            let resultado = "";
+
+            resultado += "<ul>"
+
+            for (let i = caja1; i < caja2; i++) {
+                // console.log(i)
+                resultado += "<li>" + i +"</li>"
+            }
+            resultado += "</ul>"
+
+            document.getElementById("resultado").innerHTML = resultado;
+        } 
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
