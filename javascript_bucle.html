@@ -10,50 +10,57 @@
 
     <div class="formulario">
         <form action="">
-            <label id="caja1" for="numero1">Número 1</label>
-            <input type="text" value="">
-            <label id="caja2" for="numero2">Número 2</label>
-            <input type="text" value="">
+            <label for="numero1">Número 1</label>
+            <input id="caja1" type="text" value="3">
 
-            <button onclick="bucle()">Procesar</button>
+            <label  for="numero2">Número 2</label>
+            <input id="caja2" type="text" value="30">
 
-            <div id="resultado">
-
-
-            </div>
-
+            <button id="btn1" onclick="bucle()">Procesar</button>
         </form>
+    </div>
+
+
+    <div>
+        <p id="mensaje"></p>
+
     </div>
 
     <script src="index.js"></script>
 
     <script>
 
-        const caja1 = document.getElementById("caja1").value
-        //let valor1 = parseInt(caja1.value) // lo que le estamos diciendo a ese string es que sea número
+        let caja1 = document.getElementById("caja1")
+        //let valor1 = parseInt(caja1.value) // lo que le estamos diciendo a ese string es que sea número, lo tenermos que incluir dentro de la función para que pueda obetner los datos
 
-        const caja2 = document.getElementById("caja2").value
-        // let valor2 = parseInt(caja2.value) // lo que le estamos diciendo a ese string es que sea número
-  
+        console.log(caja1)
 
-        function bucle2(caja1, caja2) {
+        let caja2 = document.getElementById("caja2")
+        // let valor2 = parseInt(caja2.value) // lo que le estamos diciendo a ese string es que sea número, lo tenermos que incluir dentro de la función para que pueda obetner los datos
+        
+        let mensaje = document.getElementById("mensaje")
 
+        function bucle(){
+alert("Hola")
+            let valor1 = parseInt(caja1.value);
+            console.log(valor1)
+            let valor2 = parseInt(caja2.value);
+
+           
             let resultado = "";
 
-            resultado += "<ul>"
+             resultado += "<ul>"
 
-            for (let i = caja1; i < caja2; i++) {
-                // console.log(i)
+            for(let i = valor1; i <= valor2; i++) {
+                console.log(i)
+
                 resultado += "<li>" + i +"</li>"
-            }
-            resultado += "</ul>"
+             }
 
-            document.getElementById("resultado").innerHTML = resultado;
+             resultado += "</ul>"
+
+             mensaje.innerHTML = resultado; 
         } 
-
-
-
-
 
     </script>
     

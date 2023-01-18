@@ -3,12 +3,12 @@ console.log("Hello World")
 // Iteración de 1 al 21: impreso en el console.log
 
 
-function bucle1() {
+ function bucle1() {
 
-    for (let i = 1; i < 21; i++) {
-        console.log(i)   
-    }
-} 
+   for (let i = 1; i < 21; i++) {
+             console.log(i)   
+   }
+ } 
 
 bucle1()
 
